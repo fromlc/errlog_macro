@@ -1,8 +1,8 @@
 //------------------------------------------------------------------------------
 // errlog.h
 // 
-// #define USE_ERRLOG in each compilation unit, 
-// or add USE_ERRLOG to project's preprocessor definitions
+// #define USE_ERRLOG in each compilation unit (.cpp file), 
+// or add USE_ERRLOG to your project's preprocessor definitions
 // 
 // ERRLOG macro displays:
 //  - passed message
