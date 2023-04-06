@@ -6,7 +6,7 @@
 // 
 // ERRLOG macro displays:
 //  - passed message
-//  - source file name where macro invoked
+//  - source file name where macro is being invoked
 //  - line number in this source file 
 //  - date and time of the last modification of this source file
 //------------------------------------------------------------------------------

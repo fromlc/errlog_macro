@@ -28,8 +28,10 @@ int main() {
 // demo ERRLOG macro
     ERRLOG("before Divide");
 
+    // Divide.h invokes ERRLOG on attempted divide by zero
     Divide d(3, 0);
 
+    // Rectangle.cpp invokes ERRLOG on attempt to set negative width or length
     Rectangle r;
     r.setWidth(-1);
 
